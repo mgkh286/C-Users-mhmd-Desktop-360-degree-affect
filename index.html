@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Room Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="viewer">
+            <img src="https://images.unsplash.com/photo-1600607685473-9f2c5565b7c5?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&w=800" alt="Dining Room" class="room-image" id="roomImage">
+            <div class="viewer-overlay">
+                <div class="viewer-button">360°</div>
+            </div>
+        </div>
+        <div class="room-nav">
+            <button class="nav-button active" data-room="dining-room">Dining Room</button>
+            <button class="nav-button" data-room="living-room">Living Room</button>
+            <button class="nav-button" data-room="kitchen">Kitchen</button>
+            <button class="nav-button" data-room="office">Office</button>
+            <button class="nav-button" data-room="bed-room">Bed Room</button>
+            <button class="nav-button" data-room="waiting-hall">Waiting Hall</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
